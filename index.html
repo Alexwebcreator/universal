@@ -5,58 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Universal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="navbar navbar--fixed">
     <div class="container">
-      <a href="index.html" class="logo" data-aos="zoom-out-left" data-aos-delay="100">
-        <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
-      </a>
-      <ul class="navbar-menu">
-        <li class="navbar-menu__item navbar-menu__item--mobile--visible navbar-menu__item--search">
-          <form action="#" class="search navbar__search navbar__search--mobile--visible">
-            <input type="text" class="search__input" placeholder="Search Location">
-            <button class="search__button">
-              <img src="img/search.svg" alt="Icon: search">
-            </button>
-          </form>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">Статьи</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">Новости</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">Курсы</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">HTML</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">CSS</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">JavaScript</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a href="#" class="navbar-menu__link">Web Design</a>
-        </li>
-      </ul>
-      <!-- /.navbar-menu -->
-      <form action="#" class="search navbar__search navbar__search--mobile--hidden" data-aos="zoom-out-left"
-        data-aos-delay="200">
-        <input type="search" class="search__input" placeholder="Поиск">
-        <button class="search__button">
-          <img src="img/search.svg" alt="Icon: search">
+      <div class="navbar-wrapper">
+        <div class="navbar-logo">
+          <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Logo: universal" class="logo__image">
+          </a>
+        </div>
+        <!-- /.header-logo -->
+        <ul class="navbar-menu">
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Статьи</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Новости</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Курсы</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">HTML</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">CSS</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">JavaScript</a>
+          </li>
+          <li class="navbar-menu__item">
+            <a href="#" class="navbar-menu__link">Web Design</a>
+          </li>
+        </ul>
+        <!-- /.navbar-menu -->
+        <button class="button navbar-menu__button">
+          ОСТАВИТЬ ЗАЯВКУ
         </button>
-      </form>
-      <button class="menu-button navbar__menu-button">
-        <span class="menu-button__line"></span>
-        <span class="menu-button__line"></span>
-        <span class="menu-button__line"></span>
-      </button>
+      </div>
+      <!-- /.header-wrapper -->
     </div>
   </header>
 </body>

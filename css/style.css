@@ -2,6 +2,31 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Lato-ExtraBold" sans-serif;
+  src: url("../fonts/Lato-ExtraBold.woff") format("woff");
+  ur-font-weight: normal;
+  ur-font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-Bold" sans-serif;
+  src: url("../fonts/Lato-Bold.woff") format("woff");
+  ur-font-weight: normal;
+  ur-font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-Regular" sans-serif;
+  src: url("../fonts/Lato-Regular.woff") format("woff");
+  ur-font-weight: normal;
+  ur-font-style: normal;
+}
+
+body {
+  font-family: "Lato-Regular" sans-serif;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -339,5 +364,35 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #262D33;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 540px;
+  padding-left: 0;
+}
+
+.navbar-menu__item {
+  list-style: none;
+}
+
+.navbar-menu__link {
+  text-decoration: none;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
